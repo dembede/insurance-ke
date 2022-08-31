@@ -23,8 +23,8 @@ export default function NavBar() {
         </Link>
       </Logo>
       <ul>
-        <CustomLink to="/form" title="Form">
-          Form
+        <CustomLink to="/form" title="Apply">
+          Apply
         </CustomLink>
         <CustomLink to="/help" title="Need help?">
           Need help?

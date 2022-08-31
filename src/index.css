@@ -1,4 +1,5 @@
 body {
+  box-sizing: border-box;
   margin: 0;
   font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
     "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
@@ -6,6 +7,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: black;
+  background-color: rgba(0, 0, 0, 0.08);
 }
 
 code {
@@ -18,7 +20,31 @@ code {
 }
 
 section {
+  box-sizing: border-box;
   padding: 0 1rem;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 3.2rem;
+  margin-bottom: 0.5rem;
+  font-family: "Prompt";
+}
+
+h2 {
+  font-size: 2.5rem;
+  line-height: 2.7rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-family: "Prompt";
+}
+
+h3 {
+  font-size: 2rem;
+  line-height: 2.2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-family: "Prompt";
 }
 
 a {

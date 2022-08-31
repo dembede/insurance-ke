@@ -7,7 +7,7 @@ export const Section = styled.section`
   padding: 0 1rem;
   align-items: center;
   gap: 1rem;
-  color: greenyellow;
+  color: #00d943;
   background-color: black;
   border-bottom: 2px solid rgba(0, 0, 0, 0.1);
   ul {

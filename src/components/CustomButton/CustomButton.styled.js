@@ -17,7 +17,7 @@ export const Button = styled.button`
       : "padding: 0.65rem 1.75rem; font-size: 1rem;"}
 
   &:hover {
-    color: #00d943;
+    color: #9e9e9e;
     background-color: rgba(0, 0, 0, 0.95);
   }
 `;

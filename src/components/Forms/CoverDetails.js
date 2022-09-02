@@ -14,12 +14,12 @@ export default function CoverDetails({ onSubmit }) {
     <Form
       onSubmit={(e) => {
         e.preventDefault();
-        return onSubmit({ coverType, coverDuration });
+        return onSubmit({ carModel, yom, coverType, coverDuration });
       }}
     >
       <h3>1. Cover Details</h3>
       <InputField
-        label="Type of car"
+        label="Car Make and Model"
         name="carModel"
         type="text"
         value={carModel}
@@ -50,18 +50,18 @@ export default function CoverDetails({ onSubmit }) {
         label="Cover Duration"
         name="coverDuration"
         options={[
-          { id: "1mo", name: "1 month" },
+          { id: "1y", name: "12 months" },
           { id: "6mo", name: "6 months" },
-          { id: "1y", name: "1 year" },
+          { id: "1mo", name: "1 month" },
         ]}
         value={coverDuration}
         onChange={(e) => setCoverDuration(e.target.value)}
       />
       <CustomButton
         to="/form"
-        onClick={() => onSubmit({ coverType, coverDuration })}
+        onClick={() => onSubmit({ carModel, yom, coverType, coverDuration })}
       >
-        Continue...
+        Continue
       </CustomButton>
       <p>
         <i>

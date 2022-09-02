@@ -14,7 +14,7 @@ export default function PaymentDetails({ onSubmit }) {
     <Form
       onSubmit={(e) => {
         e.preventDefault();
-        return onSubmit({ paymentMethod, sname, email, nationalId });
+        return onSubmit({ paymentMethod });
       }}
     >
       <h3>3. Payment Details</h3>
@@ -34,11 +34,8 @@ export default function PaymentDetails({ onSubmit }) {
         value={paymentMethod}
         onChange={(e) => setPaymentMethod(e.target.value)}
       />
-      <CustomButton
-        to="/form"
-        onClick={() => onSubmit({ paymentMethod, sname, email, nationalId })}
-      >
-        Continue
+      <CustomButton to="/form" onClick={() => onSubmit({ paymentMethod })}>
+        Finish
       </CustomButton>
     </Form>
   );

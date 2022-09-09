@@ -12,8 +12,8 @@ export const Section = styled.section`
   padding: 0.5rem 1rem;
   align-items: center;
   gap: 1rem;
-  color: #9e9e9e;
-  background-color: black;
+  color: lightblue;
+  background-color: midnightblue;
   border-bottom: 2px solid rgba(0, 0, 0, 0.1);
   ul {
     display: flex;

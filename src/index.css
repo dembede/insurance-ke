@@ -6,8 +6,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: black;
+  color: #3e3e3e;
   background-color: rgba(0, 0, 0, 0.08);
+  font-size: 16px;
 }
 
 code {
@@ -26,26 +27,36 @@ section {
 }
 
 h1 {
-  font-size: 3rem;
-  line-height: 3.2rem;
+  font-size: 4rem;
+  line-height: 4.2rem;
   margin-bottom: 0.5rem;
-  font-family: "Prompt";
+  font-family: "Goku";
+  font-weight: 500;
+  color: midnightblue;
 }
 
 h2 {
-  font-size: 2.5rem;
-  line-height: 2.7rem;
+  font-size: 3.5rem;
+  line-height: 3.7rem;
   margin-top: 1.5rem;
   margin-bottom: 0.5rem;
-  font-family: "Prompt";
+  font-family: "Goku";
+  font-weight: 500;
+  color: midnightblue;
 }
 
 h3 {
-  font-size: 2rem;
-  line-height: 2.2rem;
+  font-size: 2.5rem;
+  line-height: 2.7rem;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-  font-family: "Prompt";
+  font-family: "Goku";
+  font-weight: 500;
+  color: midnightblue;
+}
+h4,
+h5 {
+  color: midnightblue;
 }
 
 a {

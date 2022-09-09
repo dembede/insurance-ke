@@ -4,11 +4,11 @@ export const Button = styled.button`
   display: inline-block;
   margin-top: 0.5rem;
   font-weight: 900;
-  border-radius: 50px;
+  border-radius: 4px;
   text-transform: capitalize;
-  background-color: black;
+  background-color: midnightblue;
   border: none;
-  color: white;
+  color: lightblue;
   cursor: pointer;
   transition: 0.35s ease-in-out;
   ${(props) =>
@@ -17,7 +17,6 @@ export const Button = styled.button`
       : "padding: 0.65rem 1.75rem; font-size: 1rem;"}
 
   &:hover {
-    color: #9e9e9e;
-    background-color: rgba(0, 0, 0, 0.95);
+    color: white;
   }
 `;

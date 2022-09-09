@@ -14,7 +14,7 @@ export const Select = styled.select`
   margin-top: 0.8rem;
   margin-bottom: 0.8rem;
   font-family: "Prompt";
-  outline-color: black;
+  outline-color: midnightblue;
   transition: 0.35s ease-in-out;
   border-radius: 3px;
   font-size: 1rem;
@@ -35,4 +35,5 @@ export const Label = styled.label`
   text-transform: uppercase;
   font-weight: 500;
   color: rgba(0, 0, 0, 0.75);
+  color: midnightblue;
 `;

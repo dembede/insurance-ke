@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import InputField from "../InputField";
-import SelectField from "../SelectField";
+import { InputField, SelectField } from "../InputField";
 import { Form } from "./Forms.styled";
 import CustomButton from "../CustomButton";
 

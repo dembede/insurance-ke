@@ -16,7 +16,12 @@ export const Button = styled.button`
       ? "padding: 1rem 2rem; font-size: 1.2rem;"
       : "padding: 0.65rem 1.75rem; font-size: 1rem;"}
 
-  &:hover {
+  &:hover, &:focus {
     color: white;
+    scale: 1.075;
+    /* rotate: x -20deg;
+    rotate: y -20deg;
+    rotate: z -20deg; */
+    /* rotate: 0 1 1.5 -90deg; */
   }
 `;

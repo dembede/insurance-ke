@@ -1,6 +1,14 @@
-import { InputWrapper, NumberInput, Input, Label } from "./InputField.styled";
+import {
+  InputWrapper,
+  FieldWrapper,
+  NumberInput,
+  Input,
+  Label,
+  Select,
+  Option,
+} from "./InputField.styled";
 
-export default function InputField({
+export function InputField({
   label,
   type,
   name,
@@ -21,5 +29,21 @@ export default function InputField({
         </Input>
       )}
     </InputWrapper>
+  );
+}
+
+export function SelectField({ label, name, options, ...props }) {
+  return (
+    <FieldWrapper>
+      <Label htmlFor={name}>{label}</Label>
+      <Select name={name} {...props}>
+        <Option value="0">Select option</Option>
+        {options.map((option) => (
+          <Option key={`cover-${option.id}`} value={option.id}>
+            {option.name}
+          </Option>
+        ))}
+      </Select>
+    </FieldWrapper>
   );
 }

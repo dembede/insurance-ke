@@ -1,9 +1,9 @@
 body {
   box-sizing: border-box;
   margin: 0;
-  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
-    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: "Avenir Next", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #3e3e3e;
@@ -42,7 +42,7 @@ h2 {
   margin-bottom: 0.5rem;
   font-family: "Goku";
   font-weight: 500;
-  color: midnightblue;
+  color: grey;
 }
 
 h3 {
@@ -52,11 +52,11 @@ h3 {
   margin-bottom: 0.5rem;
   font-family: "Goku";
   font-weight: 500;
-  color: midnightblue;
+  color: grey;
 }
 h4,
 h5 {
-  color: midnightblue;
+  color: grey;
 }
 
 a {

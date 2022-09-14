@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Section = styled.section`
-  font-family: "Prompt";
+  font-family: "Avenir Next";
   display: flex;
   position: fixed;
   top: 0;
@@ -33,7 +33,7 @@ export const Section = styled.section`
   }
 `;
 export const Logo = styled.div`
-  font-family: "Prompt";
+  font-family: "Avenir Next";
   font-weight: 900;
   font-size: 1.2rem;
   a {
